@@ -22,10 +22,19 @@ function mudou() {
             bot.innerHTML = "👆️ Diagrama";
             break;
         case "2":
-            bot.innerHTML = "👆🏾 Diagrama";
+            bot.innerHTML = "👆🏿 Diagrama";
             break;
         case "3":
+            bot.innerHTML = "👆🏾 Diagrama";
+            break;
+            case "4":
             bot.innerHTML = "👆🏽 Diagrama";
+            break;
+            case "5":
+            bot.innerHTML = "👆🏼 Diagrama";
+            break;
+            case "6":
+            bot.innerHTML = "👆🏻 Diagrama";
             break;
     }
 }

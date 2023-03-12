@@ -191,6 +191,29 @@ a:hover {
     height: 35px;
 }
 
+.button {
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgba(149, 157, 165);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
 hr.style-six {
     padding: 0;
     border: none;
@@ -293,6 +316,12 @@ hr.style-three:before {
     
     section {
        overflow: hidden;
+    }
+
+    .button{
+        height: 20px;
+        padding: 0 10px 10px 10px;
+        font-size: 10px;
     }
     
 
